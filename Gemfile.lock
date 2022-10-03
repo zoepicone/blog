@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    nokogiri (1.13.8-arm64-darwin)
+      racc (~> 1.4)
+    pandoc-ruby (2.1.6)
+    racc (1.6.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  nokogiri
+  pandoc-ruby
+
+BUNDLED WITH
+   2.3.7
