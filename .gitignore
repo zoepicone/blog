@@ -1,6 +1,7 @@
 test/
 test.html
 test.md
+**/.DS_Store
 
 *.gem
 *.rbc
