@@ -1,4 +1,6 @@
 test/
+test.html
+test.md
 
 *.gem
 *.rbc
