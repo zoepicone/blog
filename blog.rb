@@ -8,7 +8,7 @@ def run
     converted = File.basename(entry, ".md")
     File.open("#{PATH}/#{converted}.html", "w") do |f|
       File.write(entry, "\n\n[Back](../#{PATH}.html)", File.size(entry), mode:'a') unless File.read(entry).include?("[Back](../#{PATH}.html)")
-      f.write PandocRuby.new(File.read(entry), :standalone, "--css #{Dir.pwd}/#{PATH}/style.css", from: 'markdown+pandoc_title_block').to_html
+      f.write PandocRuby.new(File.read(entry), :standalone, "--css style.css", from: 'markdown+pandoc_title_block').to_html
     end
   end
 
