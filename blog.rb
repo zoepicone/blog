@@ -32,7 +32,7 @@ def toc
   tocfile.puts("% Blogposts\n\n")
   files.each do |file|
     tocfile.puts("#{file[1]} - [#{IO.readlines(file[0])[0][2..]
-                 .strip!}](#{PATH}/#{File.basename(file[0], '.md')}.html)\n\n")
+                 .strip!}](#{PATH}/#{File.basename(file[0], '.md')})\n\n")
   end
   tocfile.puts('[Back](./.)')
   tocfile.close
