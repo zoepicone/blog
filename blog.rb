@@ -2,6 +2,7 @@
 
 require 'pandoc-ruby'
 require 'date'
+require 'rss'
 
 PATH = ARGV[0]
 
