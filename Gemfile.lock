@@ -2,6 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     pandoc-ruby (2.1.6)
+    rexml (3.2.6)
+    rss (0.3.0)
+      rexml
 
 PLATFORMS
   arm64-darwin-21
@@ -9,6 +12,7 @@ PLATFORMS
 
 DEPENDENCIES
   pandoc-ruby
+  rss
 
 BUNDLED WITH
    2.3.7
